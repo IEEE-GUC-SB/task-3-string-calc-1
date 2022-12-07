@@ -3,7 +3,8 @@ public class StringCalculator {
         if (numbers.length()==0){
             return 0;
         }
-        String[] stringsArray = numbers.split(",");
+
+        String[] stringsArray = numbers.split(",|\n");
         int sum=0;
         for (int i = 0; i < stringsArray.length; i++) {
             sum+=Integer.parseInt(stringsArray[i]);
