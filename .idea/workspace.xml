@@ -36,12 +36,22 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.stringCalculatorTest">
+  <component name="RunManager" selected="JUnit.stringCalculatorTest.testDifferentDelimiters">
     <configuration name="stringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="stringCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stringCalculatorTest.testDifferentDelimiters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task-3-string-calc-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="stringCalculatorTest" />
+      <option name="METHOD_NAME" value="testDifferentDelimiters" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -58,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.stringCalculatorTest.testDifferentDelimiters" />
         <item itemvalue="JUnit.stringCalculatorTest" />
         <item itemvalue="JUnit.stringCalculatorTest.testNewLineAdding" />
       </list>
