@@ -1,5 +1,7 @@
+import java.util.ArrayList;
+
 public class StringCalculator {
-    public int add(String numbers){
+    public int add(String numbers) throws Exception {
         if (numbers.length()==0){
             return 0;
         }
@@ -12,8 +14,19 @@ public class StringCalculator {
             stringsArray = numbers.split(",|\n");
         }
         int sum=0;
+        boolean negativesFound =false;
+        ArrayList<Integer> negatives = new ArrayList<>();
         for (int i = 0; i < stringsArray.length; i++) {
-            sum+=Integer.parseInt(stringsArray[i]);
+            int num = Integer.parseInt(stringsArray[i]);
+            if(num<0){
+                negativesFound=true;
+                negatives.add(num);
+            }else{
+                sum+= num;
+            }
+        }
+        if(negativesFound){
+            throw new Exception("negatives Found" + negatives.toString());
         }
         return sum;
     }

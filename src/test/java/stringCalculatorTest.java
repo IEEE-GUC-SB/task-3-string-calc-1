@@ -13,27 +13,27 @@ class stringCalculatorTest{
         sc =new StringCalculator();
     }
     @Test
-    void testZero(){
+    void testZero() throws Exception {
         int result = sc.add("");
         assertEquals(0,result);
     }
     @Test
-    void testSingleNumber(){
+    void testSingleNumber() throws Exception {
         int result = sc.add("1");
         assertEquals(1,result);
     }
     @Test
-    void testSimpleAdd(){
+    void testSimpleAdd() throws Exception {
         int result = sc.add("1,2");
         assertEquals(3,result);
     }
     @Test
-    void testNewLineAdding(){
+    void testNewLineAdding() throws Exception {
         int result = sc.add("1\n2,3");
         assertEquals(6,result);
     }
     @Test
-    void testDifferentDelimiters(){
+    void testDifferentDelimiters() throws Exception {
         int result = sc.add("//;\n1;2");
         assertEquals(3,result);
     }
@@ -51,7 +51,7 @@ class stringCalculatorTest{
         Exception exception = Assertions.assertThrows(Exception.class, () -> {
             sc.add("1,-2,-3");
         });
-        String expectedMessage = "-2,-3";
+        String expectedMessage = "-2, -3";
         String actualMessage = exception.getMessage();
         assertTrue(actualMessage.contains(expectedMessage));
     }

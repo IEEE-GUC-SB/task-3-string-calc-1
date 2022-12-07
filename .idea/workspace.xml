@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="344dee5b-c93f-463c-b116-b4456b479073" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stringCalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="344dee5b-c93f-463c-b116-b4456b479073" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +56,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stringCalculatorTest.testNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task-3-string-calc-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="stringCalculatorTest" />
+      <option name="METHOD_NAME" value="testNegativeNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="stringCalculatorTest.testNewLineAdding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,6 +79,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.stringCalculatorTest" />
+        <item itemvalue="JUnit.stringCalculatorTest.testNegativeNumbers" />
         <item itemvalue="JUnit.stringCalculatorTest.testDifferentDelimiters" />
         <item itemvalue="JUnit.stringCalculatorTest.testNewLineAdding" />
       </list>
@@ -86,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670420763635</updated>
       <workItem from="1670420766380" duration="2459000" />
-      <workItem from="1670429095677" duration="758000" />
+      <workItem from="1670429095677" duration="1636000" />
     </task>
     <servers />
   </component>
