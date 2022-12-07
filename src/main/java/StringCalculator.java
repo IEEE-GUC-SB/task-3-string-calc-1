@@ -26,7 +26,7 @@ public class StringCalculator {
             }
         }
         if(negativesFound){
-            throw new Exception("negatives Found" + negatives.toString());
+            throw new Exception("negatives not allowed" + negatives.toString());
         }
         return sum;
     }

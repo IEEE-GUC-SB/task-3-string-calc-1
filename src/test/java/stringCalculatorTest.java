@@ -55,4 +55,9 @@ class stringCalculatorTest{
         String actualMessage = exception.getMessage();
         assertTrue(actualMessage.contains(expectedMessage));
     }
+    @Test
+    void testnumbersGreaterThat1000() throws Exception {
+        int result = sc.add("2,1001");
+        assertEquals(2,result);
+    }
 }
