@@ -60,4 +60,9 @@ class stringCalculatorTest{
         int result = sc.add("2,1001");
         assertEquals(2,result);
     }
+    @Test
+    void testLongDelimiters() throws Exception {
+        int result = sc.add("//[***]\\n1***2***3");
+        assertEquals(6,result);
+    }
 }

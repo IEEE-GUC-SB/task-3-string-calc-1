@@ -12,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,7 +37,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.stringCalculatorTest">
+  <component name="RunManager" selected="JUnit.stringCalculatorTest.testLongDelimiters">
     <configuration name="stringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -56,21 +57,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringCalculatorTest.testNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="stringCalculatorTest.testLongDelimiters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="stringCalculatorTest" />
-      <option name="METHOD_NAME" value="testNegativeNumbers" />
+      <option name="METHOD_NAME" value="testLongDelimiters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringCalculatorTest.testNewLineAdding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="stringCalculatorTest.testNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="stringCalculatorTest" />
-      <option name="METHOD_NAME" value="testNewLineAdding" />
+      <option name="METHOD_NAME" value="testNegativeNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.stringCalculatorTest.testLongDelimiters" />
         <item itemvalue="JUnit.stringCalculatorTest" />
         <item itemvalue="JUnit.stringCalculatorTest.testnumbersGreaterThat1000" />
         <item itemvalue="JUnit.stringCalculatorTest.testNegativeNumbers" />
         <item itemvalue="JUnit.stringCalculatorTest.testDifferentDelimiters" />
-        <item itemvalue="JUnit.stringCalculatorTest.testNewLineAdding" />
       </list>
     </recent_temporary>
   </component>
