@@ -1,7 +1,9 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 class stringCalculatorTest{
@@ -34,5 +36,23 @@ class stringCalculatorTest{
     void testDifferentDelimiters(){
         int result = sc.add("//;\n1;2");
         assertEquals(3,result);
+    }
+    @Test
+    void testNegativeNumber(){
+        Exception exception = Assertions.assertThrows(Exception.class, () -> {
+            sc.add("1,-2");
+        });
+        String expectedMessage = "-2";
+        String actualMessage = exception.getMessage();
+        assertTrue(actualMessage.contains(expectedMessage));
+    }
+    @Test
+    void testNegativeNumbers(){
+        Exception exception = Assertions.assertThrows(Exception.class, () -> {
+            sc.add("1,-2,-3");
+        });
+        String expectedMessage = "-2,-3";
+        String actualMessage = exception.getMessage();
+        assertTrue(actualMessage.contains(expectedMessage));
     }
 }
