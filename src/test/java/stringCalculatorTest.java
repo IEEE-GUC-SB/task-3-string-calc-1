@@ -25,6 +25,11 @@ class stringCalculatorTest{
         int result = sc.add("1,2");
         assertEquals(3,result);
     }
+    @Test
+    void testNewLineAdding(){
+        int result = sc.add("1\n2,3");
+        assertEquals(6,result);
+    }
 
 
 }

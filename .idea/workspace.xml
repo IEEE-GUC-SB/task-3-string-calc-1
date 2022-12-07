@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="344dee5b-c93f-463c-b116-b4456b479073" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="344dee5b-c93f-463c-b116-b4456b479073" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +36,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.stringCalculatorTest.testNewLineAdding">
     <configuration name="stringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -49,8 +46,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stringCalculatorTest.testNewLineAdding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task-3-string-calc-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="stringCalculatorTest" />
+      <option name="METHOD_NAME" value="testNewLineAdding" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.stringCalculatorTest.testNewLineAdding" />
         <item itemvalue="JUnit.stringCalculatorTest" />
       </list>
     </recent_temporary>
@@ -63,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670420763635</updated>
-      <workItem from="1670420766380" duration="1638000" />
+      <workItem from="1670420766380" duration="1996000" />
     </task>
     <servers />
   </component>
