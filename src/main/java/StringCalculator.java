@@ -22,7 +22,9 @@ public class StringCalculator {
                 negativesFound=true;
                 negatives.add(num);
             }else{
-                sum+= num;
+                if(num<=1000){
+                    sum+= num;
+                }
             }
         }
         if(negativesFound){

@@ -36,7 +36,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.stringCalculatorTest.testnumbersGreaterThat1000">
+  <component name="RunManager" selected="JUnit.stringCalculatorTest">
     <configuration name="stringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.stringCalculatorTest.testnumbersGreaterThat1000" />
         <item itemvalue="JUnit.stringCalculatorTest" />
+        <item itemvalue="JUnit.stringCalculatorTest.testnumbersGreaterThat1000" />
         <item itemvalue="JUnit.stringCalculatorTest.testNegativeNumbers" />
         <item itemvalue="JUnit.stringCalculatorTest.testDifferentDelimiters" />
         <item itemvalue="JUnit.stringCalculatorTest.testNewLineAdding" />
