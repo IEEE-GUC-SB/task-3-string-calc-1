@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="344dee5b-c93f-463c-b116-b4456b479073" name="Changes" comment="" />
+    <list default="true" id="344dee5b-c93f-463c-b116-b4456b479073" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stringCalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.stringCalculatorTest.testLongDelimiters">
+  <component name="RunManager" selected="JUnit.stringCalculatorTest">
     <configuration name="stringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.stringCalculatorTest.testLongDelimiters" />
         <item itemvalue="JUnit.stringCalculatorTest" />
+        <item itemvalue="JUnit.stringCalculatorTest.testLongDelimiters" />
         <item itemvalue="JUnit.stringCalculatorTest.testnumbersGreaterThat1000" />
         <item itemvalue="JUnit.stringCalculatorTest.testNegativeNumbers" />
         <item itemvalue="JUnit.stringCalculatorTest.testDifferentDelimiters" />

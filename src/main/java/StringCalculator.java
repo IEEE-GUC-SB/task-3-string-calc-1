@@ -7,9 +7,20 @@ public class StringCalculator {
         }
         String[] stringsArray;
         if(numbers.charAt(0)=='/' && numbers.charAt(1)=='/'){
-            char del = numbers.charAt(2);
-            numbers=numbers.substring(4);
-            stringsArray = numbers.split(del+"");
+            if(numbers.charAt(2)=='['){
+                String del="";
+                int i=3;
+                while(numbers.charAt(i)!=']'){
+                    del+=numbers.charAt(i);
+                    i++;
+                }
+                numbers = numbers.substring(i+2);
+                stringsArray = numbers.split(del+"");
+            }else{
+                char del = numbers.charAt(2);
+                numbers=numbers.substring(4);
+                stringsArray = numbers.split(del+"");
+            }
         }else{
             stringsArray = numbers.split(",|\n");
         }

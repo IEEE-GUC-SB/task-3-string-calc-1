@@ -62,7 +62,7 @@ class stringCalculatorTest{
     }
     @Test
     void testLongDelimiters() throws Exception {
-        int result = sc.add("//[***]\\n1***2***3");
+        int result = sc.add("//[;;;]\n1;;;2;;;3");
         assertEquals(6,result);
     }
 }
