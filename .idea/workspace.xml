@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="344dee5b-c93f-463c-b116-b4456b479073" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stringCalculatorTest.java" afterDir="false" />
     </list>
@@ -50,11 +51,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringCalculatorTest.testDifferentDelimiters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="stringCalculatorTest.testDelimitersWithRegexCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="stringCalculatorTest" />
-      <option name="METHOD_NAME" value="testDifferentDelimiters" />
+      <option name="METHOD_NAME" value="testDelimitersWithRegexCharacter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +71,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringCalculatorTest.testNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="stringCalculatorTest.testLongDelimiters2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-3-string-calc-1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="stringCalculatorTest" />
-      <option name="METHOD_NAME" value="testNegativeNumbers" />
+      <option name="METHOD_NAME" value="testLongDelimiters2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,10 +94,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.stringCalculatorTest" />
+        <item itemvalue="JUnit.stringCalculatorTest.testDelimitersWithRegexCharacter" />
+        <item itemvalue="JUnit.stringCalculatorTest.testLongDelimiters2" />
         <item itemvalue="JUnit.stringCalculatorTest.testLongDelimiters" />
         <item itemvalue="JUnit.stringCalculatorTest.testnumbersGreaterThat1000" />
-        <item itemvalue="JUnit.stringCalculatorTest.testNegativeNumbers" />
-        <item itemvalue="JUnit.stringCalculatorTest.testDifferentDelimiters" />
       </list>
     </recent_temporary>
   </component>

@@ -65,4 +65,24 @@ class stringCalculatorTest{
         int result = sc.add("//[;;;]\n1;;;2;;;3");
         assertEquals(6,result);
     }
+    @Test
+    void testLongDelimitersWithRegexCharacter() throws Exception {
+        int result = sc.add("//[|.*]\n1*.*2*.*3");
+        assertEquals(6,result);
+    }
+    @Test
+    void testDelimitersWithRegexCharacter() throws Exception {
+        int result = sc.add("//*\n1*2*3");
+        assertEquals(6,result);
+    }
+    @Test
+    void testDelimitersWithRegexCharacter2() throws Exception {
+        int result = sc.add("//.\n1.2.3");
+        assertEquals(6,result);
+    }
+    @Test
+    void testDelimitersWithRegexCharacter3() throws Exception {
+        int result = sc.add("//|\n1|2|3");
+        assertEquals(6,result);
+    }
 }

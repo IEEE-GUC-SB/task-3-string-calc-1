@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class StringCalculator {
     public int add(String numbers) throws Exception {
@@ -14,12 +15,20 @@ public class StringCalculator {
                     del+=numbers.charAt(i);
                     i++;
                 }
+                del = '['+ del + ']';
+                System.out.println(del);
                 numbers = numbers.substring(i+2);
-                stringsArray = numbers.split(del+"");
+                System.out.println(numbers);
+                stringsArray = numbers.split(del);
+                System.out.println(Arrays.toString(stringsArray));
             }else{
-                char del = numbers.charAt(2);
+                char c = numbers.charAt(2);
                 numbers=numbers.substring(4);
-                stringsArray = numbers.split(del+"");
+                String del = c+"";
+                if(c == '.' || c == '*' || c == '|'){
+                    del="\\"+del;
+                }
+                stringsArray = numbers.split(del);
             }
         }else{
             stringsArray = numbers.split(",|\n");
@@ -28,6 +37,9 @@ public class StringCalculator {
         boolean negativesFound =false;
         ArrayList<Integer> negatives = new ArrayList<>();
         for (int i = 0; i < stringsArray.length; i++) {
+            if(stringsArray[i].length()==0){
+                continue;
+            }
             int num = Integer.parseInt(stringsArray[i]);
             if(num<0){
                 negativesFound=true;
